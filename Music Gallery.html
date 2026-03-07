@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>Music Gallery</title>
+        <link href="Styling.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <script src="Player function.js"></script>
+
+
+    <body>
+
+        <div>
+            <h1>Vibes</h1>
+            
+            <div>
+                <div class="jukebox">
+                    <button onclick="PickRandomAudio()">Shuffle</button>
+                    <button id="loopButton" onclick="LoopAudio()">Loop</button>
+                    <button id="autoplayButton" onclick="ToggleAutoPlay()">Auto-Play</button>
+                </div>
+            </div>
+
+            <div id="shuffleDisplay">
+                <button onclick="Rewind10Seconds()">Rewind 10s</button>
+                <img id="shuffleThumb" src="" onclick="TogglePlayPauseShuffle()">
+                <button onclick="Skip10Seconds()">Skip 10s</button>
+            </div>
+            
+            <progress id="audioProgress" value="0" max="100"></progress>
+        </div>
+        
+        <!-- Song bank -->
+        <div>
+            <div class="container" >
+                
+                <div class="box">
+                    <img src="Thumbnail\ame.jpg" onclick="toggleAudio('ame')">
+                    <audio id="ame" preload="none" >
+                        <source src="Audio\130 ame.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\mayo.jpg" onclick="toggleAudio('mayo')">
+                    <audio id="mayo" preload="none" >
+                        <source src="Audio\147 mayo.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\bat.jpg" onclick="toggleAudio('bat')">
+                    <audio id="bat" preload="none" >
+                        <source src="Audio\145 bat.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container" >
+
+                <div class="box">
+                    <img src="Thumbnail\free.jpg" onclick="toggleAudio('free')">
+                    <audio id="free" preload="none" >
+                        <source src="Audio\118 free.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\2016.jpg" onclick="toggleAudio('2016')">
+                    <audio id="2016" preload="none" >
+                        <source src="Audio\145 2016.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\50.jpg" onclick="toggleAudio('50')">
+                    <audio id="50" preload="none" >
+                        <source src="Audio\99 50.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                
+            </div>
+
+            <div class="container" >
+                <div class="box">
+                    <img src="Thumbnail\shaq.jpg" onclick="toggleAudio('shaq')">
+                    <audio id="shaq" preload="none" >
+                        <source src="Audio\144 shaq.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\shamone.jpg" onclick="toggleAudio('shamone')">
+                    <audio id="shamone" preload="none" >
+                        <source src="Audio\184 shamone.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\KHana.jpg" onclick="toggleAudio('KHana')">
+                    <audio id="KHana" preload="none" >
+                        <source src="Audio\120 KHana.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container" >
+                <div class="box">
+                    <img src="Thumbnail\again.jpg" onclick="toggleAudio('again')">
+                    <audio id="again" preload="none" >
+                        <source src="Audio\147 again.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\King.jpg" onclick="toggleAudio('King')">
+                    <audio id="King" preload="none" >
+                        <source src="Audio\109 King.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\miss u.jpg" onclick="toggleAudio('miss u')">
+                    <audio id="miss u" preload="none" >
+                        <source src="Audio\95 miss u.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container" >
+                <div class="box">
+                    <img src="Thumbnail\home.jpg" onclick="toggleAudio('home')">
+                    <audio id="home" preload="none" >
+                        <source src="Audio\102 home.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Kneen.jpg" onclick="toggleAudio('Kneen')">
+                    <audio id="Kneen" preload="none" >
+                        <source src="Audio\95 Kneen.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\spain.jpg" onclick="toggleAudio('spain')">
+                    <audio id="spain" preload="none" >
+                        <source src="Audio\130 spain.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\odlf.jpg" onclick="toggleAudio('odlf')">
+                    <audio id="odlf" preload="none" >
+                        <source src="Audio\127 odlf.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\1 I 7.jpg" onclick="toggleAudio('1 I 7')">
+                    <audio id="1 I 7" preload="none" >
+                        <source src="Audio\78 1 I 7.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Mike U.jpg" onclick="toggleAudio('Mike U')">
+                    <audio id="Mike U" preload="none" >
+                        <source src="Audio\128 Mike U.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\Coulda told'ya.jpg" onclick="toggleAudio('Coulda told\'ya')">
+                    <audio id="Coulda told'ya" preload="none" >
+                        <source src="Audio\83 Coulda told'ya.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\LaZ.jpg" onclick="toggleAudio('LaZ')">
+                    <audio id="LaZ" preload="none" >
+                        <source src="Audio\96 LaZ.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\What if we held hands while everyone turned into orange juice.jpg" onclick="toggleAudio('What if we held hands while everyone turned into orange juice')">
+                    <audio id="What if we held hands while everyone turned into orange juice" preload="none" >
+                        <source src="Audio\128 What if we held hands while everyone turned into orange juice.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\FuuuuUUuukashigi.jpg" onclick="toggleAudio('FuuuuUUuukashigi')">
+                    <audio id="FuuuuUUuukashigi" preload="none" >
+                        <source src="Audio\100 FuuuuUUuukashigi.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\sitch.jpg" onclick="toggleAudio('sitch')">
+                    <audio id="sitch" preload="none" >
+                        <source src="Audio\72 sitch.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\sip sip.jpg" onclick="toggleAudio('sip sip')">
+                    <audio id="sip sip" preload="none" >
+                        <source src="Audio\100 sip sip.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\B.jpg" onclick="toggleAudio('B')">
+                    <audio id="B" preload="none" >
+                        <source src="Audio\164 B.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\seasonal confusion 2.jpg" onclick="toggleAudio('seasonal confusion 2')">
+                    <audio id="seasonal confusion 2" preload="none" >
+                        <source src="Audio\125 seasonal confusion 2.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\flapjack.jpg" onclick="toggleAudio('flapjack')">
+                    <audio id="flapjack" preload="none" >
+                        <source src="Audio\131 flapjack.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\golden week.jpg" onclick="toggleAudio('golden week')">
+                    <audio id="golden week" preload="none" >
+                        <source src="Audio\122 golden week.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Officer, that man right there.jpg" onclick="toggleAudio('Officer, that man right there')">
+                    <audio id="Officer, that man right there" preload="none" >
+                        <source src="Audio\124 Officer, that man right there.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\gAu to the beach.jpg" onclick="toggleAudio('gAu to the beach')">
+                    <audio id="gAu to the beach" preload="none" >
+                        <source src="Audio\123 gAu to the beach.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\sycophant.jpg" onclick="toggleAudio('sycophant')">
+                    <audio id="sycophant" preload="none" >
+                        <source src="Audio\156 sycophant.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\real and true.jpg" onclick="toggleAudio('real and true')">
+                    <audio id="real and true" preload="none" >
+                        <source src="Audio\140 real and true.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Clenched cheeks.jpg" onclick="toggleAudio('Clenched cheeks')">
+                    <audio id="Clenched cheeks" preload="none" >
+                        <source src="Audio\122 Clenched cheeks.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\Now show me the rest.jpg" onclick="toggleAudio('Now show me the rest')">
+                    <audio id="Now show me the rest" preload="none" >
+                        <source src="Audio\128 Now show me the rest.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Super Chicken Parmesean Hero.jpg" onclick="toggleAudio('Super Chicken Parmesean Hero')">
+                    <audio id="Super Chicken Parmesean Hero" preload="none" >
+                        <source src="Audio\164 Super Chicken Parmesean Hero.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Lee Kibum.jpg" onclick="toggleAudio('Lee Kibum')">
+                    <audio id="Lee Kibum" preload="none" >
+                        <source src="Audio\130 Lee Kibum.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\Hello, Hello, hello, Um, uh, uh, um.jpg" onclick="toggleAudio('Hello, Hello, hello, Um, uh, uh, um')">
+                    <audio id="Hello, Hello, hello, Um, uh, uh, um" preload="none" >
+                        <source src="Audio\146 Hello, Hello, hello, Um, uh, uh, um.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Super Brainz (in cursive).jpg" onclick="toggleAudio('Super Brainz (in cursive)')">
+                    <audio id="Super Brainz (in cursive)" preload="none" >
+                        <source src="Audio\120 Super Brainz (in cursive).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\The 1, First, Premier guy.jpg" onclick="toggleAudio('The 1, First, Premier guy')">
+                    <audio id="The 1, First, Premier guy" preload="none" >
+                        <source src="Audio\136 The 1, First, Premier guy.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <img src="Thumbnail\Shiver me Timbers.jpg" onclick="toggleAudio('Shiver me Timbers')">
+                    <audio id="Shiver me Timbers" preload="none" >
+                        <source src="Audio\116 Shiver me Timbers.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="box">
+                    <img src="Thumbnail\Talk of More E.jpg" onclick="toggleAudio('Talk of More E')">
+                    <audio id="Talk of More E" preload="none" >
+                        <source src="Audio\108 Talk of More E.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+
+         </div>
+
+    </body>
+
+ </html>
