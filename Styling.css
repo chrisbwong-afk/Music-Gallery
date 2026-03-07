@@ -1,5 +1,9 @@
 Styling
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     background-color:#426386;
 }
