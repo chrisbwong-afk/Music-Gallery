@@ -12,15 +12,16 @@ Same thing, I do not own any of the images or thumbnails, they only help identif
 The player has a display thumbnail, skip and rewind controls, and progress display. Clicking on the player thumbnail can pause and play the song. If not using the mouse, there are keyboard controls:
 <ul>
 <li>Space to pause or play </li>
-<li>Arrow keys for skipping / rewind </li>
+<li>"Q" and "E" for skipping / rewind </li>
+<li>"W" to return to the top of the page</li>
 <li>"S" for shuffle </li>
-<li>"L" for loop </li> 
+<li>"D" for loop </li> 
 <li>"A" for auto</li>
 </ul>
 
 ### Song Bank
 
-Below the player is a library of every song that is in the repo, and the thumbnails have cursor reactive behaviour. The active song itself becomes visually larger than other thumbnails, and has a slight opacity change. On each page reload, the order of the icons becomes shuffled.
+Below the player is a library of every song that is in the repo, and the thumbnails have cursor reactive behaviour. The active song itself becomes visually larger than other thumbnails, and has a slight opacity change.
 
 ### Shuffle
 
