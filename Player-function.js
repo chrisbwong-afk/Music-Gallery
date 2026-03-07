@@ -250,7 +250,7 @@ function Autohotkey() {
 
 function Skiphotkey() {
   document.addEventListener('keydown', (e) => {
-    if (e.code === 'q' || e.code === 'KeyQ') {
+    if (e.code === 'e' || e.code === 'KeyE') {
       e.preventDefault();
       Skip10Seconds();
     }
@@ -259,7 +259,7 @@ function Skiphotkey() {
 
 function Rewindhotkey() {
   document.addEventListener('keydown', (e) => {
-    if (e.code === 'e' || e.code === 'KeyE') {
+    if (e.code === 'q' || e.code === 'KeyQ') {
       e.preventDefault();
       Rewind10Seconds();
     }
