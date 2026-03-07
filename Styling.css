@@ -1,6 +1,5 @@
 Styling
 
-Default{
     html, body {
         background-color:#426386;
     }
@@ -153,24 +152,45 @@ Default{
         background-color: #0d3a6d;
         transition: width 0.25s ease;
     }
-}
+
 
 @media (max-width: 768px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
     .container {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
 
     .box {
-        width: 80%;
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .jukebox {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .jukebox button {
-        width: 100%;
-        margin: 10px 0;
+        width: 90%;
+        margin: 8px 0;
+        font-size: 20px;
     }
-    img {
-        width: 15%;
-        height: auto;
+
+    #shuffleDisplay {
+        flex-direction: column;
+        gap: 10px;
     }
+
 }
