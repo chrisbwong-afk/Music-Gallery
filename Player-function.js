@@ -275,4 +275,14 @@ window.addEventListener('DOMContentLoaded', () => {
   Rewindhotkey();
 });
 
-
+document.addEventListener('keydown', (e) => {
+  // Only handle number row keys (Digit0-Digit9)
+  if (e.code.startsWith('Digit')) {
+    e.preventDefault();  // stop scrolling
+    const num = parseInt(e.code.replace('Digit',''), 10); // 0-9
+    if (currentAudio && currentAudio.duration) {
+      currentAudio.currentTime = currentAudio.duration * (num / 10);
+      console.log(`Jumped to ${num*10}%`);
+    }
+  }
+});
