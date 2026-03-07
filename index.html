@@ -12,16 +12,16 @@
             
             <div>
                 <div class="jukebox">
-                    <button onclick="PickRandomAudio()">Shuffle</button>
-                    <button id="loopButton" onclick="LoopAudio()">Loop</button>
-                    <button id="autoplayButton" onclick="ToggleAutoPlay()">Auto-Play</button>
+                    <button onclick="PickRandomAudio()">Shuffle (S)</button>
+                    <button id="loopButton" onclick="LoopAudio()">Loop (L)</button>
+                    <button id="autoplayButton" onclick="ToggleAutoPlay()">Auto-Play (A)</button>
                 </div>
             </div>
 
             <div id="shuffleDisplay">
-                <button onclick="Rewind10Seconds()">Rewind 10s</button>
-                <img id="shuffleThumb" src="" onclick="TogglePlayPauseShuffle()">
-                <button onclick="Skip10Seconds()">Skip 10s</button>
+                <button onclick="Rewind10Seconds()"><</button>
+                <img id="shuffleThumb" src="Thumbnail/Robin.jpg" onclick="TogglePlayPauseShuffle()" contain>
+                <button onclick="Skip10Seconds()">></button>
             </div>
             
             <progress id="audioProgress" value="0" max="100"></progress>

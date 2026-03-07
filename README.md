@@ -9,8 +9,9 @@ Same thing, I do not own any of the images or thumbnails, they only help identif
 
 ### Player
 
-The player has a display thumbnail, skip and rewind controls, and progress display. Clicking on the player thumbnail can pause and play the song. If not using the mouse, the spacebar will also pause and play the current song. I'm thinking of adding more keyboard controls:
+The player has a display thumbnail, skip and rewind controls, and progress display. Clicking on the player thumbnail can pause and play the song. If not using the mouse, there are keyboard controls:
 <ul>
+<li>Space to pause or play </li>
 <li>Arrow keys for skipping / rewind </li>
 <li>"S" for shuffle </li>
 <li>"L" for loop </li> 

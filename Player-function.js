@@ -149,13 +149,13 @@ function LoopAudio() {
     audio.loop = isLooping
   );
 
-  document.querySelector('#loopButton').textContent = isLooping ? 'Loop On' : 'Loop Off';
+  document.querySelector('#loopButton').textContent = isLooping ? 'Loop On (L)' : 'Loop Off (L)';
 }
 
 function ToggleAutoPlay() {
   isAutoPlay = !isAutoPlay;
   const btn = document.getElementById('autoplayButton');
-  btn.textContent = isAutoPlay ? 'Auto-Play On' : 'Auto-Play Off';
+  btn.textContent = isAutoPlay ? 'Auto-Play On (A)' : 'Auto-Play Off (A)';
 
   if (currentAudio) {
     if (isAutoPlay) {
@@ -221,4 +221,58 @@ function spacebarToggle() {
   });
 }
 
-window.addEventListener('DOMContentLoaded', spacebarToggle);
+function Shufflehotkey() {
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 's' || e.code === 'KeyS') {
+      e.preventDefault();
+      PickRandomAudio();
+    }
+  });
+}
+
+function Loophotkey() {
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'l' || e.code === 'KeyL') {
+      e.preventDefault();
+      LoopAudio();
+    }
+  });
+}
+
+function Autohotkey() {
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'a' || e.code === 'KeyA') {
+      e.preventDefault();
+      ToggleAutoPlay();
+    }
+  });
+}
+
+function Skiphotkey() {
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'ArrowRight' || e.code === 'KeyArrowRight') {
+      e.preventDefault();
+      Skip10Seconds();
+    }
+  });
+}
+
+function Rewindhotkey() {
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'ArrowLeft' || e.code === 'KeyArrowLeft') {
+      e.preventDefault();
+      Rewind10Seconds();
+    }
+  });
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  spacebarToggle();
+  Shufflehotkey();
+  Loophotkey();
+  Autohotkey();
+  Skiphotkey();
+  Rewindhotkey();
+});
+
+
