@@ -332,3 +332,12 @@ function DecreaseVolumeHotkey() {
     }
   });
 }
+
+function UpdateVolume() {
+  if (!currentAudio) return;
+  const progress = document.getElementById('volumeLevel');
+  const percent = (currentAudio.volume / 1) * 100;
+  progress.value = percent;
+}
+
+setInterval(UpdateVolume, 100);
