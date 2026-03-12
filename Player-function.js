@@ -44,31 +44,6 @@ function toggleAudio(id) {
 
 }
 
-// Shuffle all boxes on page load
-function shuffleAllBoxes() {
-  // Get all boxes
-  const boxes = Array.from(document.querySelectorAll('.box'));
-  
-  // Shuffle using Fisher–Yates
-  for (let i = boxes.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [boxes[i], boxes[j]] = [boxes[j], boxes[i]];
-  }
-
-  // Remove existing boxes from all containers
-  const containers = document.querySelectorAll('.container');
-  containers.forEach(container => container.innerHTML = '');
-
-  // Re-insert boxes in rows of 3
-  let row = 0;
-  for (let i = 0; i < boxes.length; i++) {
-    containers[row].appendChild(boxes[i]);
-    row = (row + 1) % containers.length;
-  }
-}
-// Run on page load
-window.addEventListener('DOMContentLoaded', shuffleAllBoxes);
-
 // Shuffle function
 function PickRandomAudio() {
   const audios = Array.from(document.querySelectorAll('audio'));
@@ -168,7 +143,6 @@ function ToggleAutoPlay() {
   }
 }
 
-
 function Skip10Seconds() {
   if (currentAudio) {
     currentAudio.currentTime = Math.min(
@@ -204,9 +178,7 @@ function UpdateProgress() {
   progress.value = percent;
 }
 
-setInterval(UpdateProgress, 100);
-
-function spacebarToggle() {
+function KeyControls() {
   document.addEventListener('keydown', (e) => {
     if (e.code === 'Space') {
       e.preventDefault();
@@ -218,89 +190,52 @@ function spacebarToggle() {
         } 
       }
     }
-  });
-}
-
-function Shufflehotkey() {
-  document.addEventListener('keydown', (e) => {
     if (e.code === 's' || e.code === 'KeyS') {
       e.preventDefault();
       PickRandomAudio();
     }
-  });
-}
-
-function Loophotkey() {
-  document.addEventListener('keydown', (e) => {
     if (e.code === 'd' || e.code === 'KeyD') {
       e.preventDefault();
       LoopAudio();
     }
-  });
-}
-
-function Autohotkey() {
-  document.addEventListener('keydown', (e) => {
     if (e.code === 'a' || e.code === 'KeyA') {
       e.preventDefault();
       ToggleAutoPlay();
     }
-  });
-}
-
-function Skiphotkey() {
-  document.addEventListener('keydown', (e) => {
     if (e.code === 'e' || e.code === 'KeyE') {
       e.preventDefault();
       Skip10Seconds();
     }
-  });
-}
-
-function Rewindhotkey() {
-  document.addEventListener('keydown', (e) => {
     if (e.code === 'q' || e.code === 'KeyQ') {
       e.preventDefault();
       Rewind10Seconds();
     }
-  });
-}
-
-window.addEventListener('DOMContentLoaded', () => {
-  spacebarToggle();
-  Shufflehotkey();
-  Loophotkey();
-  Autohotkey();
-  Skiphotkey();
-  Rewindhotkey();
-  ReturnToTopHotkey();
-  IncreaseVolumeHotkey();
-  DecreaseVolumeHotkey();
-});
-
-document.addEventListener('keydown', (e) => {
-  // Only handle number row keys (Digit0-Digit9)
-  if (e.code.startsWith('Digit')) {
-    e.preventDefault();  // stop scrolling
-    const num = parseInt(e.code.replace('Digit',''), 10); // 0-9
-    if (currentAudio && currentAudio.duration) {
-      currentAudio.currentTime = currentAudio.duration * (num / 10);
-      console.log(`Jumped to ${num*10}%`);
+    if (e.code.startsWith('Digit')) {
+      e.preventDefault();  // stop scrolling
+      const num = parseInt(e.code.replace('Digit',''), 10); // 0-9
+      if (currentAudio && currentAudio.duration) {
+        currentAudio.currentTime = currentAudio.duration * (num / 10);
+        console.log(`Jumped to ${num*10}%`);
+      }
     }
-  }
-});
-
-function ReturnToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-function ReturnToTopHotkey() {
-  document.addEventListener('keydown', (e) => {
     if (e.code === 'w' || e.code === 'KeyW') {
       e.preventDefault();
       ReturnToTop();
     }
+    if (e.code === 'x' || e.code === 'KeyX') {
+      e.preventDefault();
+      IncreaseVolume();
+    }
+    if (e.code === 'z' || e.code === 'KeyZ') {
+      e.preventDefault();
+      DecreaseVolume();
+    }
+
   });
+}
+
+function ReturnToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function IncreaseVolume(){
@@ -309,28 +244,10 @@ function IncreaseVolume(){
   }
 }
 
-function IncreaseVolumeHotkey() {
-  document.addEventListener('keydown', (e) => {
-    if (e.code === 'x' || e.code === 'KeyX') {
-      e.preventDefault();
-      IncreaseVolume();
-    }
-  });
-}
-
 function DecreaseVolume() {
   if (currentAudio) {
     currentAudio.volume = Math.max(currentAudio.volume - 0.1, 0);
   }
-}
-
-function DecreaseVolumeHotkey() {
-  document.addEventListener('keydown', (e) => {
-    if (e.code === 'z' || e.code === 'KeyZ') {
-      e.preventDefault();
-      DecreaseVolume();
-    }
-  });
 }
 
 function UpdateVolume() {
@@ -340,4 +257,10 @@ function UpdateVolume() {
   progress.value = percent;
 }
 
+window.addEventListener('DOMContentLoaded', () => {
+  KeyControls();
+});
+
 setInterval(UpdateVolume, 100);
+
+setInterval(UpdateProgress, 100);
