@@ -112,6 +112,9 @@ img {
     stroke: #FFFFFF;
 }
 
+#shuffleButton:active i {
+    stroke: #FFFFFF;
+}
 
 .box {
     width: 100%;

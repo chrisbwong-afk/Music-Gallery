@@ -213,6 +213,8 @@ function KeyControls() {
         TogglePlayPauseShuffle();
         break;
       case 'KeyS':
+        const btn = document.getElementById('shuffleButton');
+        btn.classList.add('active');
         PickRandomAudio();
         break;
       case 'KeyD':
@@ -253,6 +255,10 @@ function KeyControls() {
   });
   document.addEventListener('keyup', (e) => {
     keysDown[e.code] = false; // mark key as released
+    if (e.code === 'KeyS') {
+      const btn = document.getElementById('shuffleButton');
+      btn.classList.remove('active');
+    }
   });
 }  
 
