@@ -31,8 +31,8 @@ function toggleAudio(id) {
   } else {
     audio.pause();
     audio.currentTime = 0;
-    thumb.style.transform = 'scale(1)';
-    thumb.style.opacity = '1';
+    thumb.style.transform = '';
+    thumb.style.opacity = '';
     currentAudio = null;
     currentThumb = null;
   }
