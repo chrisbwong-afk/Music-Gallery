@@ -11,6 +11,7 @@
     <body>
         <div id="theme" class="light">
         </div>
+
         <label class="switch">
             <input type="checkbox" id="darkModeToggle" onchange="ToggleDarkMode()">
             <span class="slider round">
@@ -20,6 +21,29 @@
             </span>
         </label>
         <button id="helpButton" onclick="ToggleHelp()">?</button>
+
+        <div class="hidden" id="playbar">
+                    <button id="shuffleButton" onclick="PickRandomAudio()">
+                        <i data-lucide="shuffle" id="off"></i>
+                    </button>
+
+                    <button id="loopButton" onclick="LoopAudio()">
+                        <i data-lucide="repeat" id="off"></i>
+                    </button>
+
+                    <button id="autoplayButton" onclick="ToggleAutoPlay()">
+                        <i data-lucide="step-forward" id="off"></i>
+                    </button>
+
+                    <button type="button" id="downloadbutton" onclick="downloadCurrentAudio()">
+                        <i data-lucide="download"></i>
+                    </button>
+        </div>
+
+        <div class="hidden" id="miniProgress">
+            <p id="miniTitle" onClick="showFullTitle()"></p>
+            <progress class="audioProgress" value="0" max="100"></progress>
+        </div>
 
         <div id="help">
             <h2>Help</h2>
@@ -84,7 +108,7 @@
 
             </div>
             
-            <progress id="audioProgress" value="0" max="100"></progress>
+            <progress class="audioProgress" value="0" max="100"></progress>
         </div>
         
         <!-- Song bank -->
@@ -570,9 +594,9 @@
                 </div>
 
                 <div class="box">
-                    <img src="Thumbnail/Peak II.jpg" onclick="toggleAudio('Peak II')">
-                    <audio id="Peak II" preload="none" >
-                        <source src="Audio/136 Peak II.mp3" type="audio/mpeg">
+                    <img src="Thumbnail/Peak 2.jpg" onclick="toggleAudio('Peak 2')">
+                    <audio id="Peak 2" preload="none" >
+                        <source src="Audio/136 Peak 2.mp3" type="audio/mpeg">
                     </audio>
                 </div>
 

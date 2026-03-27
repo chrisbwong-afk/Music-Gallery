@@ -13,6 +13,11 @@ function toggleAudio(id) {
   const audio = document.getElementById(id);
   const thumb = audio.parentElement;
 
+  const title = document.getElementById('title');
+  const minititle = document.getElementById('miniTitle');
+
+  const songName = audio.id;
+  
 
   // Stop previous audio and reset its thumbnail
   if (currentAudio && currentAudio !== audio) {
@@ -51,11 +56,13 @@ function toggleAudio(id) {
   } else {
     audio.onended = null;
   } 
-  const songName = currentAudio.id;
   title.classList.add('fade-out');
+  minititle.classList.add('fade-out');
   setTimeout(() => {
     title.textContent = songName;
+    minititle.textContent = songName;
     title.classList.remove('fade-out');
+    minititle.classList.remove('fade-out');
   }, 250);
 
 }
@@ -101,17 +108,21 @@ function PickRandomAudio() {
   
   const display = document.getElementById('shuffleThumb');
   const title = document.getElementById('title');
+  const minititle = document.getElementById('miniTitle');
   const songName = currentAudio.id;
 
   title.classList.add('fade-out');
   display.classList.add('fade-out');
+  minititle.classList.add('fade-out');
 
   setTimeout(() => {
     display.src = thumb.src;
     title.textContent = songName;
+    minititle.textContent = songName;
 
     display.classList.remove('fade-out');
     title.classList.remove('fade-out');
+    minititle.classList.remove('fade-out');
   }, 250);
   
   UpdateShuffleThumbnail();
@@ -131,12 +142,15 @@ function UpdateShuffleThumbnail() {
   const container = currentThumb;
   const img = container.querySelector('img');
   const display = document.getElementById('shuffleThumb');
+  const minititle = document.getElementById('miniTitle');
 
-  display.classList.add('fade-out')
+  display.classList.add('fade-out');
+  minititle.classList.add('fade-out');
 
   setTimeout(() => {
     display.src = img.src; // set shuffle thumbnail to match current song
     display.classList.remove('fade-out');
+    minititle.classList.remove('fade-out');
   }, 250);
 
 }
@@ -167,19 +181,22 @@ function LoopAudio() {
     audio.loop = isLooping
   );
 
-  document.querySelector('#loopButton').innerHTML = isLooping 
-    ? '<i data-lucide="repeat"></i>' 
-    : '<i data-lucide="repeat" id="off"></i>';
+  document.querySelectorAll('#loopButton').forEach(btn => {
+    btn.innerHTML = isLooping 
+      ? '<i data-lucide="repeat"></i>' 
+      : '<i data-lucide="repeat" id="off"></i>';
+  });
 
   lucide.createIcons();
 }
 
 function ToggleAutoPlay() {
   isAutoPlay = !isAutoPlay;
-  const btn = document.getElementById('autoplayButton');
+  const btn = document.querySelectorAll('#autoplayButton').forEach(btn => {
   btn.innerHTML = isAutoPlay 
   ?'<i data-lucide="step-forward"></i>' 
   :'<i data-lucide="step-forward" id="off"></i>';
+  });
 
   lucide.createIcons();
 
@@ -241,12 +258,12 @@ function downloadCurrentAudio(e) {
   document.body.removeChild(link);
 };
 
-
 function UpdateProgress() {
   if (!currentAudio) return;
-  const progress = document.getElementById('audioProgress');
+  const progress = document.querySelectorAll('.audioProgress');
   const percent = (currentAudio.currentTime / currentAudio.duration) * 100;
-  progress.value = percent;
+
+  progress.forEach(p => p.value = percent);
 }
 
 function KeyControls() {
@@ -350,11 +367,6 @@ function ToggleHelp() {
   help.classList.toggle('hidden');
 }
 
-window.addEventListener('DOMContentLoaded', () => {
-  KeyControls();
-  ToggleHelp();
-});
-
 function ToggleDarkMode() {
   const div = document.getElementById('theme');
   div.classList.toggle('dark');
@@ -372,10 +384,73 @@ function ToggleDarkMode() {
   }, 150);
 
   const title = document.querySelector('h1');
+  const miniTitle = document.getElementById('miniTitle');
+  const miniBorders = document.querySelectorAll('#playbar, #miniProgress');
 
   title.style.color = div.classList.contains('dark') ? '#8ea2d2' : '#000000';
+  miniTitle.style.color = div.classList.contains('dark') ? '#ffffff' : '#000000';
+  miniBorders.forEach(border => {
+    border.style.borderColor = div.classList.contains('dark') ? '#616e8b' : '#212933';
+  });
 
 }
+
+function ShowPlaybar() {
+  const playbar = document.getElementById('playbar');
+  const mainbar = document.querySelector('.jukebox');
+  
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        playbar.classList.add('hidden');
+        playbar.classList.remove('show');
+      } else {
+        playbar.classList.add('show');
+        playbar.classList.remove('hidden');
+      }
+    });
+  });
+
+  observer.observe(mainbar);
+}
+
+function ShowMiniProgress() {
+  const mini = document.getElementById('miniProgress');
+  const main = document.getElementById('shuffleDisplay');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        mini.classList.add('hidden');
+        mini.classList.remove('show');
+      } else {
+        mini.classList.remove('hidden');
+        mini.classList.add('show');
+      }
+    });
+  });
+
+  observer.observe(main);
+}
+
+function showFullTitle() {
+  const title = document.getElementById('miniTitle');
+
+  if (title.style.width === '30%') {
+    title.style.width = '200%';
+  } else {
+    title.style.width = '30%';
+  }
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  KeyControls();
+  ToggleHelp();
+  ShowPlaybar();
+  ShowMiniProgress();
+  showFullTitle();
+});
+
 
 setInterval(UpdateVolume, 100);
 
