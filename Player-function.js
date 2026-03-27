@@ -254,7 +254,7 @@ function KeyControls() {
     if (keysDown[e.code]) return; // already pressed, ignore repeat
     keysDown[e.code] = true;      // mark key as pressed
 
-    const blockedKeys = ['Space', 'KeyS', 'KeyD', 'KeyA', 'KeyE', 'KeyQ', 'KeyW', 'KeyX', 'KeyZ', 'Slash'];
+    const blockedKeys = ['Space', 'KeyS', 'KeyD', 'KeyA', 'KeyE', 'KeyQ', 'KeyW', 'KeyX', 'KeyZ', 'Slash', 'KeyG'];
     if (blockedKeys.includes(e.code) || e.code.startsWith('Digit')) {
       e.preventDefault();
     }
@@ -291,6 +291,15 @@ function KeyControls() {
         break;
       case 'Slash':
         ToggleHelp();
+        break;
+      case 'KeyC':
+        const input = document.getElementById('darkModeToggle');
+        input.click();
+        break;
+      case 'KeyG':
+        if (keysDown['ControlLeft'] && keysDown['ShiftLeft']) {
+          downloadCurrentAudio(e);
+        }
         break;
 
       default:
