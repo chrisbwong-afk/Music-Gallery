@@ -1,100 +1,9 @@
 [
   {
-    "id": "Woop",
-    "title": "Woop",
-    "file": "Audio/105 Woop.mp3",
-    "cover": "Thumbnail/Woop.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Kegg",
-    "title": "Kegg",
-    "file": "Audio/164 Kegg.mp3",
-    "cover": "Thumbnail/Kegg.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Side character",
-    "title": "Side character",
-    "file": "Audio/107 Side character.mp3",
-    "cover": "Thumbnail/Side character.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "odlf",
-    "title": "odlf",
-    "file": "Audio/127 odlf.mp3",
-    "cover": "Thumbnail/odlf.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Lowers glasses",
-    "title": "Lowers glasses",
-    "file": "Audio/115 Lowers glasses.mp3",
-    "cover": "Thumbnail/Lowers glasses.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "bat",
-    "title": "bat",
-    "file": "Audio/145 bat.mp3",
-    "cover": "Thumbnail/bat.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "explosive climax",
-    "title": "explosive climax",
-    "file": "Audio/106 explosive climax.mp3",
-    "cover": "Thumbnail/explosive climax.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Ngau Lam",
-    "title": "Ngau Lam",
-    "file": "Audio/133 Ngau Lam.mp3",
-    "cover": "Thumbnail/Ngau Lam.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Peak 2",
-    "title": "Peak 2",
-    "file": "Audio/136 Peak 2.mp3",
-    "cover": "Thumbnail/Peak 2.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "KHana",
-    "title": "KHana",
-    "file": "Audio/120 KHana.mp3",
-    "cover": "Thumbnail/KHana.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Spiky",
-    "title": "Spiky",
-    "file": "Audio/185 Spiky.mp3",
-    "cover": "Thumbnail/Spiky.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Shiver me Timbers",
-    "title": "Shiver me Timbers",
-    "file": "Audio/116 Shiver me Timbers.mp3",
-    "cover": "Thumbnail/Shiver me Timbers.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "sycophant",
-    "title": "sycophant",
-    "file": "Audio/156 sycophant.mp3",
-    "cover": "Thumbnail/sycophant.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "freaky wit it",
-    "title": "freaky wit it",
-    "file": "Audio/124 freaky wit it.mp3",
-    "cover": "Thumbnail/freaky wit it.jpg",
+    "id": "Grass Knuckles",
+    "title": "Grass Knuckles",
+    "file": "Audio/94 Grass Knuckles.mp3",
+    "cover": "Thumbnail/Grass Knuckles.jpg",
     "preload": "none"
   },
   {
@@ -105,164 +14,10 @@
     "preload": "none"
   },
   {
-    "id": "Cruise",
-    "title": "Cruise",
-    "file": "Audio/98 Cruise.mp3",
-    "cover": "Thumbnail/Cruise.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Sardines",
-    "title": "Sardines",
-    "file": "Audio/155 Sardines.mp3",
-    "cover": "Thumbnail/Sardines.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Talk of More E",
-    "title": "Talk of More E",
-    "file": "Audio/108 Talk of More E.mp3",
-    "cover": "Thumbnail/Talk of More E.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "so back",
-    "title": "so back",
-    "file": "Audio/120 so back.mp3",
-    "cover": "Thumbnail/so back.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Disc oRB",
-    "title": "Disc oRB",
-    "file": "Audio/115 Disc oRB.mp3",
-    "cover": "Thumbnail/Disc oRB.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "shaq",
-    "title": "shaq",
-    "file": "Audio/144 shaq.mp3",
-    "cover": "Thumbnail/shaq.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Uncute",
-    "title": "Uncute",
-    "file": "Audio/72 Uncute.mp3",
-    "cover": "Thumbnail/Uncute.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "42꞉38",
-    "title": "42꞉38",
-    "file": "Audio/92 42꞉38.mp3",
-    "cover": "Thumbnail/42꞉38.jpg",
-    "preload": "none"
-  },
-  {
     "id": "50",
     "title": "50",
     "file": "Audio/99 50.mp3",
     "cover": "Thumbnail/50.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "oldge",
-    "title": "oldge",
-    "file": "Audio/102 oldge.mp3",
-    "cover": "Thumbnail/oldge.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "LaZ",
-    "title": "LaZ",
-    "file": "Audio/96 LaZ.mp3",
-    "cover": "Thumbnail/LaZ.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "sip sip",
-    "title": "sip sip",
-    "file": "Audio/100 sip sip.mp3",
-    "cover": "Thumbnail/sip sip.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Smashing",
-    "title": "Smashing",
-    "file": "Audio/95 Smashing.mp3",
-    "cover": "Thumbnail/Smashing.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "seasonal confusion 2",
-    "title": "seasonal confusion 2",
-    "file": "Audio/125 seasonal confusion 2.mp3",
-    "cover": "Thumbnail/seasonal confusion 2.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "thick",
-    "title": "thick",
-    "file": "Audio/149 thick.mp3",
-    "cover": "Thumbnail/thick.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Spicy",
-    "title": "Spicy",
-    "file": "Audio/105 Spicy.mp3",
-    "cover": "Thumbnail/Spicy.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Limon the homie",
-    "title": "Limon the homie",
-    "file": "Audio/100 Limon the homie.mp3",
-    "cover": "Thumbnail/Limon the homie.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Blind",
-    "title": "Blind",
-    "file": "Audio/87 Blind.mp3",
-    "cover": "Thumbnail/Blind.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "FuuuuUUuukashigi",
-    "title": "FuuuuUUuukashigi",
-    "file": "Audio/100 FuuuuUUuukashigi.mp3",
-    "cover": "Thumbnail/FuuuuUUuukashigi.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Football",
-    "title": "Football",
-    "file": "Audio/99 Football.mp3",
-    "cover": "Thumbnail/Football.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "goob",
-    "title": "goob",
-    "file": "Audio/106 goob.mp3",
-    "cover": "Thumbnail/goob.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Thank you for everything",
-    "title": "Thank you for everything",
-    "file": "Audio/131 Thank you for everything.mp3",
-    "cover": "Thumbnail/Thank you for everything.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Clenched cheeks",
-    "title": "Clenched cheeks",
-    "file": "Audio/122 Clenched cheeks.mp3",
-    "cover": "Thumbnail/Clenched cheeks.jpg",
     "preload": "none"
   },
   {
@@ -273,437 +28,10 @@
     "preload": "none"
   },
   {
-    "id": "2016",
-    "title": "2016",
-    "file": "Audio/145 2016.mp3",
-    "cover": "Thumbnail/2016.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Peak",
-    "title": "Peak",
-    "file": "Audio/145 Peak.mp3",
-    "cover": "Thumbnail/Peak.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Strum Bum Chum",
-    "title": "Strum Bum Chum",
-    "file": "Audio/120 Strum Bum Chum.mp3",
-    "cover": "Thumbnail/Strum Bum Chum.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "haha",
-    "title": "haha",
-    "file": "Audio/67 haha.mp3",
-    "cover": "Thumbnail/haha.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "3000 years",
-    "title": "3000 years",
-    "file": "Audio/125 3000 years.mp3",
-    "cover": "Thumbnail/3000 years.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "shamone",
-    "title": "shamone",
-    "file": "Audio/184 shamone.mp3",
-    "cover": "Thumbnail/shamone.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Kneen",
-    "title": "Kneen",
-    "file": "Audio/95 Kneen.mp3",
-    "cover": "Thumbnail/Kneen.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "free",
-    "title": "free",
-    "file": "Audio/118 free.mp3",
-    "cover": "Thumbnail/free.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "gAu to the beach",
-    "title": "gAu to the beach",
-    "file": "Audio/123 gAu to the beach.mp3",
-    "cover": "Thumbnail/gAu to the beach.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "King",
-    "title": "King",
-    "file": "Audio/109 King.mp3",
-    "cover": "Thumbnail/King.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Grass Knuckles",
-    "title": "Grass Knuckles",
-    "file": "Audio/94 Grass Knuckles.mp3",
-    "cover": "Thumbnail/Grass Knuckles.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Coulda toldya",
-    "title": "Coulda toldya",
-    "file": "Audio/83 Coulda toldya.mp3",
-    "cover": "Thumbnail/Coulda toldya.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Pina Colada",
-    "title": "Pina Colada",
-    "file": "Audio/155 Pina Colada.mp3",
-    "cover": "Thumbnail/Pina Colada.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "What if we held hands while everyone turned into orange juice",
-    "title": "What if we held hands while everyone turned into orange juice",
-    "file": "Audio/128 What if we held hands while everyone turned into orange juice.mp3",
-    "cover": "Thumbnail/What if we held hands while everyone turned into orange juice.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "enderman",
-    "title": "enderman",
-    "file": "Audio/90 enderman.mp3",
-    "cover": "Thumbnail/enderman.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Michael Morningstar",
-    "title": "Michael Morningstar",
-    "file": "Audio/146 Michael Morningstar.mp3",
-    "cover": "Thumbnail/Michael Morningstar.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "again",
-    "title": "again",
-    "file": "Audio/147 again.mp3",
-    "cover": "Thumbnail/again.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "golden week",
-    "title": "golden week",
-    "file": "Audio/122 golden week.mp3",
-    "cover": "Thumbnail/golden week.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "1 I 7",
-    "title": "1 I 7",
-    "file": "Audio/78 1 I 7.mp3",
-    "cover": "Thumbnail/1 I 7.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Drifted",
-    "title": "Drifted",
-    "file": "Audio/156 Drifted.mp3",
-    "cover": "Thumbnail/Drifted.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "mayo",
-    "title": "mayo",
-    "file": "Audio/147 mayo.mp3",
-    "cover": "Thumbnail/mayo.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Would bounce on it",
-    "title": "Would bounce on it",
-    "file": "Audio/125 Would bounce on it.mp3",
-    "cover": "Thumbnail/Would bounce on it.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "chummy",
-    "title": "chummy",
-    "file": "Audio/130 chummy.mp3",
-    "cover": "Thumbnail/chummy.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Fever",
-    "title": "Fever",
-    "file": "Audio/110 Fever.mp3",
-    "cover": "Thumbnail/Fever.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Officer, that man right there",
-    "title": "Officer, that man right there",
-    "file": "Audio/124 Officer, that man right there.mp3",
-    "cover": "Thumbnail/Officer, that man right there.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Grey Man",
-    "title": "Grey Man",
-    "file": "Audio/114 Grey Man.mp3",
-    "cover": "Thumbnail/Grey Man.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Super Chicken Parmesean Hero",
-    "title": "Super Chicken Parmesean Hero",
-    "file": "Audio/164 Super Chicken Parmesean Hero.mp3",
-    "cover": "Thumbnail/Super Chicken Parmesean Hero.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Throwback",
-    "title": "Throwback",
-    "file": "Audio/122 Throwback.mp3",
-    "cover": "Thumbnail/Throwback.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Hero",
-    "title": "Hero",
-    "file": "Audio/75 Hero.mp3",
-    "cover": "Thumbnail/Hero.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Double meat",
-    "title": "Double meat",
-    "file": "Audio/79 Double meat.mp3",
-    "cover": "Thumbnail/Double meat.jpg",
-    "preload": "none"
-  },
-  {
     "id": "Goddamn",
     "title": "Goddamn",
     "file": "Audio/122 Goddamn.mp3",
     "cover": "Thumbnail/Goddamn.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Standby",
-    "title": "Standby",
-    "file": "Audio/133 Standby.mp3",
-    "cover": "Thumbnail/Standby.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "I believe in change",
-    "title": "I believe in change",
-    "file": "Audio/85 I believe in change.mp3",
-    "cover": "Thumbnail/I believe in change.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "miss u",
-    "title": "miss u",
-    "file": "Audio/95 miss u.mp3",
-    "cover": "Thumbnail/miss u.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Mike U",
-    "title": "Mike U",
-    "file": "Audio/128 Mike U.mp3",
-    "cover": "Thumbnail/Mike U.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Peanut butter",
-    "title": "Peanut butter",
-    "file": "Audio/110 Peanut butter.mp3",
-    "cover": "Thumbnail/Peanut butter.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Firefly",
-    "title": "Firefly",
-    "file": "Audio/164 Firefly.mp3",
-    "cover": "Thumbnail/Firefly.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Redbull",
-    "title": "Redbull",
-    "file": "Audio/160 Redbull.mp3",
-    "cover": "Thumbnail/Redbull.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "More than a phase",
-    "title": "More than a phase",
-    "file": "Audio/120 More than a phase.mp3",
-    "cover": "Thumbnail/More than a phase.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Gene",
-    "title": "Gene",
-    "file": "Audio/85 Gene.mp3",
-    "cover": "Thumbnail/Gene.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "one bad day",
-    "title": "one bad day",
-    "file": "Audio/110 one bad day.mp3",
-    "cover": "Thumbnail/one bad day.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "home",
-    "title": "home",
-    "file": "Audio/102 home.mp3",
-    "cover": "Thumbnail/home.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Now show me the rest",
-    "title": "Now show me the rest",
-    "file": "Audio/128 Now show me the rest.mp3",
-    "cover": "Thumbnail/Now show me the rest.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "5 star review",
-    "title": "5 star review",
-    "file": "Audio/110 5 star review.mp3",
-    "cover": "Thumbnail/5 star review.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Peak 4",
-    "title": "Peak 4",
-    "file": "Audio/132 Peak 4.mp3",
-    "cover": "Thumbnail/Peak 4.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Fuck spinners",
-    "title": "Fuck spinners",
-    "file": "Audio/104 Fuck spinners.mp3",
-    "cover": "Thumbnail/Fuck spinners.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Super Brainz (in cursive)",
-    "title": "Super Brainz (in cursive)",
-    "file": "Audio/120 Super Brainz (in cursive).mp3",
-    "cover": "Thumbnail/Super Brainz (in cursive).jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Berries",
-    "title": "Berries",
-    "file": "Audio/90 Berries.mp3",
-    "cover": "Thumbnail/Berries.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Yo get on bro",
-    "title": "Yo get on bro",
-    "file": "Audio/90 Yo get on bro.mp3",
-    "cover": "Thumbnail/Yo get on bro.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "B",
-    "title": "B",
-    "file": "Audio/164 B.mp3",
-    "cover": "Thumbnail/B.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Actually accurate",
-    "title": "Actually accurate",
-    "file": "Audio/130 Actually accurate.mp3",
-    "cover": "Thumbnail/Actually accurate.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Lee Kibum",
-    "title": "Lee Kibum",
-    "file": "Audio/130 Lee Kibum.mp3",
-    "cover": "Thumbnail/Lee Kibum.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Trunk",
-    "title": "Trunk",
-    "file": "Audio/124 Trunk.mp3",
-    "cover": "Thumbnail/Trunk.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "atrium",
-    "title": "atrium",
-    "file": "Audio/85 atrium.mp3",
-    "cover": "Thumbnail/atrium.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Golden age",
-    "title": "Golden age",
-    "file": "Audio/150 Golden age.mp3",
-    "cover": "Thumbnail/Golden age.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "real and true",
-    "title": "real and true",
-    "file": "Audio/140 real and true.mp3",
-    "cover": "Thumbnail/real and true.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "2D",
-    "title": "2D",
-    "file": "Audio/131 2D.mp3",
-    "cover": "Thumbnail/2D.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Lewda",
-    "title": "Lewda",
-    "file": "Audio/122 Lewda.mp3",
-    "cover": "Thumbnail/Lewda.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "DP",
-    "title": "DP",
-    "file": "Audio/120 DP.mp3",
-    "cover": "Thumbnail/DP.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "Hug",
-    "title": "Hug",
-    "file": "Audio/165 Hug.mp3",
-    "cover": "Thumbnail/Hug.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "WR",
-    "title": "WR",
-    "file": "Audio/175 WR.mp3",
-    "cover": "Thumbnail/WR.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "flapjack",
-    "title": "flapjack",
-    "file": "Audio/131 flapjack.mp3",
-    "cover": "Thumbnail/flapjack.jpg",
     "preload": "none"
   },
   {
@@ -714,45 +42,31 @@
     "preload": "none"
   },
   {
-    "id": "spain",
-    "title": "spain",
-    "file": "Audio/130 spain.mp3",
-    "cover": "Thumbnail/spain.jpg",
+    "id": "Talk of More E",
+    "title": "Talk of More E",
+    "file": "Audio/108 Talk of More E.mp3",
+    "cover": "Thumbnail/Talk of More E.jpg",
     "preload": "none"
   },
   {
-    "id": "If only",
-    "title": "If only",
-    "file": "Audio/125 If only.mp3",
-    "cover": "Thumbnail/If only.jpg",
+    "id": "B",
+    "title": "B",
+    "file": "Audio/164 B.mp3",
+    "cover": "Thumbnail/B.jpg",
     "preload": "none"
   },
   {
-    "id": "big uppies",
-    "title": "big uppies",
-    "file": "Audio/133 big uppies.mp3",
-    "cover": "Thumbnail/big uppies.jpg",
+    "id": "2D",
+    "title": "2D",
+    "file": "Audio/131 2D.mp3",
+    "cover": "Thumbnail/2D.jpg",
     "preload": "none"
   },
   {
-    "id": "The 1, First, Premier guy",
-    "title": "The 1, First, Premier guy",
-    "file": "Audio/136 The 1, First, Premier guy.mp3",
-    "cover": "Thumbnail/The 1, First, Premier guy.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "sitch",
-    "title": "sitch",
-    "file": "Audio/72 sitch.mp3",
-    "cover": "Thumbnail/sitch.jpg",
-    "preload": "none"
-  },
-  {
-    "id": "ame",
-    "title": "ame",
-    "file": "Audio/130 ame.mp3",
-    "cover": "Thumbnail/ame.jpg",
+    "id": "Redbull",
+    "title": "Redbull",
+    "file": "Audio/160 Redbull.mp3",
+    "cover": "Thumbnail/Redbull.jpg",
     "preload": "none"
   },
   {
@@ -763,17 +77,248 @@
     "preload": "none"
   },
   {
-    "id": "tf",
-    "title": "tf",
-    "file": "Audio/146 tf.mp3",
-    "cover": "Thumbnail/tf.jpg",
+    "id": "miss u",
+    "title": "miss u",
+    "file": "Audio/95 miss u.mp3",
+    "cover": "Thumbnail/miss u.jpg",
     "preload": "none"
   },
   {
-    "id": "What a good guy",
-    "title": "What a good guy",
-    "file": "Audio/141 What a good guy.mp3",
-    "cover": "Thumbnail/What a good guy.jpg",
+    "id": "sycophant",
+    "title": "sycophant",
+    "file": "Audio/156 sycophant.mp3",
+    "cover": "Thumbnail/sycophant.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Pina Colada",
+    "title": "Pina Colada",
+    "file": "Audio/155 Pina Colada.mp3",
+    "cover": "Thumbnail/Pina Colada.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "odlf",
+    "title": "odlf",
+    "file": "Audio/127 odlf.mp3",
+    "cover": "Thumbnail/odlf.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Clenched cheeks",
+    "title": "Clenched cheeks",
+    "file": "Audio/122 Clenched cheeks.mp3",
+    "cover": "Thumbnail/Clenched cheeks.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Coulda toldya",
+    "title": "Coulda toldya",
+    "file": "Audio/83 Coulda toldya.mp3",
+    "cover": "Thumbnail/Coulda toldya.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "What if we held hands while everyone turned into orange juice",
+    "title": "What if we held hands while everyone turned into orange juice",
+    "file": "Audio/128 What if we held hands while everyone turned into orange juice.mp3",
+    "cover": "Thumbnail/What if we held hands while everyone turned into orange juice.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "I believe in change",
+    "title": "I believe in change",
+    "file": "Audio/85 I believe in change.mp3",
+    "cover": "Thumbnail/I believe in change.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "5 star review",
+    "title": "5 star review",
+    "file": "Audio/110 5 star review.mp3",
+    "cover": "Thumbnail/5 star review.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Kneen",
+    "title": "Kneen",
+    "file": "Audio/95 Kneen.mp3",
+    "cover": "Thumbnail/Kneen.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Lee Kibum",
+    "title": "Lee Kibum",
+    "file": "Audio/130 Lee Kibum.mp3",
+    "cover": "Thumbnail/Lee Kibum.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "again",
+    "title": "again",
+    "file": "Audio/147 again.mp3",
+    "cover": "Thumbnail/again.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Hero",
+    "title": "Hero",
+    "file": "Audio/75 Hero.mp3",
+    "cover": "Thumbnail/Hero.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "sip sip",
+    "title": "sip sip",
+    "file": "Audio/100 sip sip.mp3",
+    "cover": "Thumbnail/sip sip.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "one bad day",
+    "title": "one bad day",
+    "file": "Audio/110 one bad day.mp3",
+    "cover": "Thumbnail/one bad day.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "so back",
+    "title": "so back",
+    "file": "Audio/120 so back.mp3",
+    "cover": "Thumbnail/so back.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Smashing",
+    "title": "Smashing",
+    "file": "Audio/95 Smashing.mp3",
+    "cover": "Thumbnail/Smashing.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Peak 2",
+    "title": "Peak 2",
+    "file": "Audio/136 Peak 2.mp3",
+    "cover": "Thumbnail/Peak 2.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "thick",
+    "title": "thick",
+    "file": "Audio/149 thick.mp3",
+    "cover": "Thumbnail/thick.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Lewda",
+    "title": "Lewda",
+    "file": "Audio/122 Lewda.mp3",
+    "cover": "Thumbnail/Lewda.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Spiky",
+    "title": "Spiky",
+    "file": "Audio/185 Spiky.mp3",
+    "cover": "Thumbnail/Spiky.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Firefly",
+    "title": "Firefly",
+    "file": "Audio/164 Firefly.mp3",
+    "cover": "Thumbnail/Firefly.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Yo get on bro",
+    "title": "Yo get on bro",
+    "file": "Audio/90 Yo get on bro.mp3",
+    "cover": "Thumbnail/Yo get on bro.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "3000 years",
+    "title": "3000 years",
+    "file": "Audio/125 3000 years.mp3",
+    "cover": "Thumbnail/3000 years.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "sitch",
+    "title": "sitch",
+    "file": "Audio/72 sitch.mp3",
+    "cover": "Thumbnail/sitch.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Officer, that man right there",
+    "title": "Officer, that man right there",
+    "file": "Audio/124 Officer, that man right there.mp3",
+    "cover": "Thumbnail/Officer, that man right there.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Golden age",
+    "title": "Golden age",
+    "file": "Audio/150 Golden age.mp3",
+    "cover": "Thumbnail/Golden age.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "FuuuuUUuukashigi",
+    "title": "FuuuuUUuukashigi",
+    "file": "Audio/100 FuuuuUUuukashigi.mp3",
+    "cover": "Thumbnail/FuuuuUUuukashigi.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "bat",
+    "title": "bat",
+    "file": "Audio/145 bat.mp3",
+    "cover": "Thumbnail/bat.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "atrium",
+    "title": "atrium",
+    "file": "Audio/85 atrium.mp3",
+    "cover": "Thumbnail/atrium.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "freaky wit it",
+    "title": "freaky wit it",
+    "file": "Audio/124 freaky wit it.mp3",
+    "cover": "Thumbnail/freaky wit it.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "oldge",
+    "title": "oldge",
+    "file": "Audio/102 oldge.mp3",
+    "cover": "Thumbnail/oldge.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "haha",
+    "title": "haha",
+    "file": "Audio/67 haha.mp3",
+    "cover": "Thumbnail/haha.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Limon the homie",
+    "title": "Limon the homie",
+    "file": "Audio/100 Limon the homie.mp3",
+    "cover": "Thumbnail/Limon the homie.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Peak",
+    "title": "Peak",
+    "file": "Audio/145 Peak.mp3",
+    "cover": "Thumbnail/Peak.jpg",
     "preload": "none"
   },
   {
@@ -784,10 +329,465 @@
     "preload": "none"
   },
   {
+    "id": "real and true",
+    "title": "real and true",
+    "file": "Audio/140 real and true.mp3",
+    "cover": "Thumbnail/real and true.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Mike U",
+    "title": "Mike U",
+    "file": "Audio/128 Mike U.mp3",
+    "cover": "Thumbnail/Mike U.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Blind",
+    "title": "Blind",
+    "file": "Audio/87 Blind.mp3",
+    "cover": "Thumbnail/Blind.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "shaq",
+    "title": "shaq",
+    "file": "Audio/144 shaq.mp3",
+    "cover": "Thumbnail/shaq.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Standby",
+    "title": "Standby",
+    "file": "Audio/133 Standby.mp3",
+    "cover": "Thumbnail/Standby.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Michael Morningstar",
+    "title": "Michael Morningstar",
+    "file": "Audio/146 Michael Morningstar.mp3",
+    "cover": "Thumbnail/Michael Morningstar.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Kegg",
+    "title": "Kegg",
+    "file": "Audio/164 Kegg.mp3",
+    "cover": "Thumbnail/Kegg.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "chummy",
+    "title": "chummy",
+    "file": "Audio/130 chummy.mp3",
+    "cover": "Thumbnail/chummy.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "flapjack",
+    "title": "flapjack",
+    "file": "Audio/131 flapjack.mp3",
+    "cover": "Thumbnail/flapjack.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "1 I 7",
+    "title": "1 I 7",
+    "file": "Audio/78 1 I 7.mp3",
+    "cover": "Thumbnail/1 I 7.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "mayo",
+    "title": "mayo",
+    "file": "Audio/147 mayo.mp3",
+    "cover": "Thumbnail/mayo.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "ame",
+    "title": "ame",
+    "file": "Audio/130 ame.mp3",
+    "cover": "Thumbnail/ame.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Super Brainz (in cursive)",
+    "title": "Super Brainz (in cursive)",
+    "file": "Audio/120 Super Brainz (in cursive).mp3",
+    "cover": "Thumbnail/Super Brainz (in cursive).jpg",
+    "preload": "none"
+  },
+  {
+    "id": "LaZ",
+    "title": "LaZ",
+    "file": "Audio/96 LaZ.mp3",
+    "cover": "Thumbnail/LaZ.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "seasonal confusion 2",
+    "title": "seasonal confusion 2",
+    "file": "Audio/125 seasonal confusion 2.mp3",
+    "cover": "Thumbnail/seasonal confusion 2.jpg",
+    "preload": "none"
+  },
+  {
     "id": "Stinky pete",
     "title": "Stinky pete",
     "file": "Audio/118 Stinky pete.mp3",
     "cover": "Thumbnail/Stinky pete.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "WR",
+    "title": "WR",
+    "file": "Audio/175 WR.mp3",
+    "cover": "Thumbnail/WR.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Throwback",
+    "title": "Throwback",
+    "file": "Audio/122 Throwback.mp3",
+    "cover": "Thumbnail/Throwback.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Now show me the rest",
+    "title": "Now show me the rest",
+    "file": "Audio/128 Now show me the rest.mp3",
+    "cover": "Thumbnail/Now show me the rest.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "spain",
+    "title": "spain",
+    "file": "Audio/130 spain.mp3",
+    "cover": "Thumbnail/spain.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Football",
+    "title": "Football",
+    "file": "Audio/99 Football.mp3",
+    "cover": "Thumbnail/Football.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Cruise",
+    "title": "Cruise",
+    "file": "Audio/98 Cruise.mp3",
+    "cover": "Thumbnail/Cruise.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Disc oRB",
+    "title": "Disc oRB",
+    "file": "Audio/115 Disc oRB.mp3",
+    "cover": "Thumbnail/Disc oRB.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Would bounce on it",
+    "title": "Would bounce on it",
+    "file": "Audio/125 Would bounce on it.mp3",
+    "cover": "Thumbnail/Would bounce on it.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "2016",
+    "title": "2016",
+    "file": "Audio/145 2016.mp3",
+    "cover": "Thumbnail/2016.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "home",
+    "title": "home",
+    "file": "Audio/102 home.mp3",
+    "cover": "Thumbnail/home.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Side character",
+    "title": "Side character",
+    "file": "Audio/107 Side character.mp3",
+    "cover": "Thumbnail/Side character.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "42꞉38",
+    "title": "42꞉38",
+    "file": "Audio/92 42꞉38.mp3",
+    "cover": "Thumbnail/42꞉38.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Trunk",
+    "title": "Trunk",
+    "file": "Audio/124 Trunk.mp3",
+    "cover": "Thumbnail/Trunk.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "DP",
+    "title": "DP",
+    "file": "Audio/120 DP.mp3",
+    "cover": "Thumbnail/DP.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Woop",
+    "title": "Woop",
+    "file": "Audio/105 Woop.mp3",
+    "cover": "Thumbnail/Woop.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "explosive climax",
+    "title": "explosive climax",
+    "file": "Audio/106 explosive climax.mp3",
+    "cover": "Thumbnail/explosive climax.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Shiver me Timbers",
+    "title": "Shiver me Timbers",
+    "file": "Audio/116 Shiver me Timbers.mp3",
+    "cover": "Thumbnail/Shiver me Timbers.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Uncute",
+    "title": "Uncute",
+    "file": "Audio/72 Uncute.mp3",
+    "cover": "Thumbnail/Uncute.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "More than a phase",
+    "title": "More than a phase",
+    "file": "Audio/120 More than a phase.mp3",
+    "cover": "Thumbnail/More than a phase.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Fuck spinners",
+    "title": "Fuck spinners",
+    "file": "Audio/104 Fuck spinners.mp3",
+    "cover": "Thumbnail/Fuck spinners.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Thank you for everything",
+    "title": "Thank you for everything",
+    "file": "Audio/131 Thank you for everything.mp3",
+    "cover": "Thumbnail/Thank you for everything.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Peanut butter",
+    "title": "Peanut butter",
+    "file": "Audio/110 Peanut butter.mp3",
+    "cover": "Thumbnail/Peanut butter.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Double meat",
+    "title": "Double meat",
+    "file": "Audio/79 Double meat.mp3",
+    "cover": "Thumbnail/Double meat.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "KHana",
+    "title": "KHana",
+    "file": "Audio/120 KHana.mp3",
+    "cover": "Thumbnail/KHana.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "free",
+    "title": "free",
+    "file": "Audio/118 free.mp3",
+    "cover": "Thumbnail/free.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Drifted",
+    "title": "Drifted",
+    "file": "Audio/156 Drifted.mp3",
+    "cover": "Thumbnail/Drifted.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "goob",
+    "title": "goob",
+    "file": "Audio/106 goob.mp3",
+    "cover": "Thumbnail/goob.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "If only",
+    "title": "If only",
+    "file": "Audio/125 If only.mp3",
+    "cover": "Thumbnail/If only.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Fever",
+    "title": "Fever",
+    "file": "Audio/110 Fever.mp3",
+    "cover": "Thumbnail/Fever.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Strum Bum Chum",
+    "title": "Strum Bum Chum",
+    "file": "Audio/120 Strum Bum Chum.mp3",
+    "cover": "Thumbnail/Strum Bum Chum.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "big uppies",
+    "title": "big uppies",
+    "file": "Audio/133 big uppies.mp3",
+    "cover": "Thumbnail/big uppies.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "shamone",
+    "title": "shamone",
+    "file": "Audio/184 shamone.mp3",
+    "cover": "Thumbnail/shamone.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "The 1, First, Premier guy",
+    "title": "The 1, First, Premier guy",
+    "file": "Audio/136 The 1, First, Premier guy.mp3",
+    "cover": "Thumbnail/The 1, First, Premier guy.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Berries",
+    "title": "Berries",
+    "file": "Audio/90 Berries.mp3",
+    "cover": "Thumbnail/Berries.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Lowers glasses",
+    "title": "Lowers glasses",
+    "file": "Audio/115 Lowers glasses.mp3",
+    "cover": "Thumbnail/Lowers glasses.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "King",
+    "title": "King",
+    "file": "Audio/109 King.mp3",
+    "cover": "Thumbnail/King.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "enderman",
+    "title": "enderman",
+    "file": "Audio/90 enderman.mp3",
+    "cover": "Thumbnail/enderman.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "tf",
+    "title": "tf",
+    "file": "Audio/146 tf.mp3",
+    "cover": "Thumbnail/tf.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Ngau Lam",
+    "title": "Ngau Lam",
+    "file": "Audio/133 Ngau Lam.mp3",
+    "cover": "Thumbnail/Ngau Lam.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Sardines",
+    "title": "Sardines",
+    "file": "Audio/155 Sardines.mp3",
+    "cover": "Thumbnail/Sardines.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Actually accurate",
+    "title": "Actually accurate",
+    "file": "Audio/130 Actually accurate.mp3",
+    "cover": "Thumbnail/Actually accurate.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "golden week",
+    "title": "golden week",
+    "file": "Audio/122 golden week.mp3",
+    "cover": "Thumbnail/golden week.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Super Chicken Parmesean Hero",
+    "title": "Super Chicken Parmesean Hero",
+    "file": "Audio/164 Super Chicken Parmesean Hero.mp3",
+    "cover": "Thumbnail/Super Chicken Parmesean Hero.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Hug",
+    "title": "Hug",
+    "file": "Audio/165 Hug.mp3",
+    "cover": "Thumbnail/Hug.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Peak 4",
+    "title": "Peak 4",
+    "file": "Audio/132 Peak 4.mp3",
+    "cover": "Thumbnail/Peak 4.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Grey Man",
+    "title": "Grey Man",
+    "file": "Audio/114 Grey Man.mp3",
+    "cover": "Thumbnail/Grey Man.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Gene",
+    "title": "Gene",
+    "file": "Audio/85 Gene.mp3",
+    "cover": "Thumbnail/Gene.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "What a good guy",
+    "title": "What a good guy",
+    "file": "Audio/141 What a good guy.mp3",
+    "cover": "Thumbnail/What a good guy.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "Spicy",
+    "title": "Spicy",
+    "file": "Audio/105 Spicy.mp3",
+    "cover": "Thumbnail/Spicy.jpg",
+    "preload": "none"
+  },
+  {
+    "id": "gAu to the beach",
+    "title": "gAu to the beach",
+    "file": "Audio/123 gAu to the beach.mp3",
+    "cover": "Thumbnail/gAu to the beach.jpg",
     "preload": "none"
   }
 ]
