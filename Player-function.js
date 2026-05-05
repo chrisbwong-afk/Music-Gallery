@@ -48,7 +48,8 @@ function toggleAudio(id) {
       artwork: [
       { src: currentThumb?.querySelector("img")?.src || "", sizes: "512x512", type: "image/png" }
     ]
-});
+    
+    });
 
 
   } else {
@@ -78,6 +79,11 @@ function toggleAudio(id) {
     minititle.classList.remove('fade-out');
   }, 250);
 
+  recentSongs.push(audio);
+  if (recentSongs.length > MAX_HISTORY) {
+    recentSongs.shift();
+  }
+
 }
 
 // Shuffle function
@@ -87,8 +93,8 @@ function PickRandomAudio() {
   let availableAudios = audios.filter(audio => !recentSongs.includes(audio));
 
   if (availableAudios.length === 0) {
-    recentSongs = [];
-    availableAudios = audios;
+    recentSongs = recentSongs.slice(-Math.floor(MAX_HISTORY / 2));
+    availableAudios = audios.filter(audio => !recentSongs.includes(audio));
   }
   const randomIndex = Math.floor(Math.random() * availableAudios.length);
   const audio = availableAudios[randomIndex];
