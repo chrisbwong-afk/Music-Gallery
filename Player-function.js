@@ -6,7 +6,7 @@ let isAutoPlay = false;
 let globalVolume = 1;
 
 let recentSongs = [];
-const MAX_HISTORY = 40;
+const MAX_HISTORY = 75; // Limit history to 75 songs to prevent memory issues
 
 const keysDown = {};
 
